@@ -1,4 +1,5 @@
 FROM arm32v7/debian:stretch-slim
+# using debian for systemd
 
 ADD promtail-docker-config.yml /etc/promtail/docker-config.yaml
 
